@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "LCU-Utils"
+version = "0.1.0"
+authors = [
+  { name="xilliam", email="xilliam@hassyteam.com" },
+]
+description = "All the utils for LCU (Lego City Undercover) modding you could want!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/realxilliam/LCU-Utils"
+Issues = "https://github.com/realxilliam/LCU-Utils/issues"
